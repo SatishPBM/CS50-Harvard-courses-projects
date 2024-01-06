@@ -7,13 +7,6 @@ User authentication (Flask-Login).
 Dynamic rendering of stock portfolios and transaction history.
 Utilized Flask framework and SQLite database.
 
-Authentication Blueprint in Flask:
-Description: Implemented a user authentication blueprint using Flask and SQLite. Included features for user registration, secure login, and logout. Utilized password hashing for enhanced security.
-Key Features:
-Blueprint structure for modular authentication.
-Hashed password storage for user security.
-Login protection using the login_required decorator.
-
 Hash Table for Dictionary Checking (C):
 Description: Developed a hash table in C for efficient dictionary checking. Implemented a custom hash function based on string folding. Loaded and unloaded the dictionary into/from memory.
 Key Features:
@@ -31,3 +24,11 @@ Description: Implemented a voting system in C for a runoff election. Users input
 Key Features:
 User input for candidate preferences.
 Runoff logic for determining the winner or tie.
+
+
+Authentication Blueprint in Flask:
+Description: Implemented a user authentication blueprint using Flask and SQLite. Included features for user registration, secure login, and logout. Utilized password hashing for enhanced security.
+Key Features:
+Blueprint structure for modular authentication.
+Hashed password storage for user security.
+Login protection using the login_required decorator.
